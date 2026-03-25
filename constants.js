@@ -1,21 +1,20 @@
 export const METADATA = {
-  author: "Shubh Porwal",
-  title: "Portfolio | Shubh Porwal",
+  author: "Prakhar",
+  title: "Portfolio | Prakhar",
   description:
-    "Shubh Porwal is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
-  siteUrl: "https://www.shubhporwal.me/",
-  twitterHandle: "@shubhporwal24",
+    "Prakhar is a passionate Full-Stack Developer, dedicated to building modern web applications and solving real-world problems with code.",
+  siteUrl: "https://github.com/paradox-prakhar",
+  twitterHandle: "",
   keywords: [
-    "Shubh Porwal",
-    "Frontend Engineer",
-    "React Native Engineer",
+    "Prakhar",
+    "Full-Stack Developer",
+    "Web Developer",
     "Software Engineer",
     "Portfolio",
     "Devfolio",
     "Folio",
   ].join(", "),
-  image:
-    "https://res.cloudinary.com/dywdhyojt/image/upload/v1721378510/social-preview.png",
+  image: "",
   language: "English",
   themeColor: "#000000",
 };
@@ -44,31 +43,31 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A pragmatic Frontend Engineer",
+  "A passionate Full-Stack Developer",
   "I build things for the web",
-  "I create aesthetic and modern apps",
+  "I create modern and scalable apps",
 ];
 
 export const SOCIAL_LINKS = [
   {
     name: "mail",
-    url: "mailto: shubhporwal73@gmail.com",
+    url: "mailto: prakhar@example.com",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/shubhporwal/",
+    url: "https://www.linkedin.com/in/paradox-prakhar/",
   },
   {
     name: "github",
-    url: "https://github.com/shubh73",
+    url: "https://github.com/paradox-prakhar",
   },
   {
     name: "instagram",
-    url: "https://www.instagram.com/shubhii73/",
+    url: "https://www.instagram.com/paradox.prakhar/",
   },
   {
     name: "twitter",
-    url: "https://x.com/shubhporwal24",
+    url: "https://x.com/paradox_prakhar",
   },
 ];
 
@@ -87,14 +86,10 @@ export const SKILLS = {
     "tanstack",
   ],
   librariesAndFrameworks: [
-    "expo",
     "react",
-    "redux",
     "nextjs",
     "tailwindcss",
     "styledcomponents",
-    "antdesign",
-    "chakra-ui",
   ],
   databases: ["mysql", "mongodb"],
   other: ["git", "cursor", "sanity"],
@@ -102,214 +97,72 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
-    name: "NextBoss",
-    imageKey: "nextboss",
-    description: "Get hired through DMs not resumes 🤝",
-    gradient: ["#FF69B4", "#FFB6C1"], // hot pink to light pink (cherry blossom inspired)
-    // url: "https://nextboss.in",
-    tech: ["typescript", "react", "expo", "react-query"],
-  },
-  {
-    name: "ReadyAI",
-    imageKey: "ready-ai",
-    description: "AI that gets you interview ready 🎯",
-    gradient: ["#F4D03F", "#58D68D"], // warm gold to fresh green
-    url: "https://play.google.com/store/apps/details?id=com.app.readyai",
-    tech: ["typescript", "react"],
-  },
-  {
-    name: "Grapevine Round1 AI",
-    imageKey: "round1",
-    description: "Ace your round one in 9 minutes  💼",
-    gradient: ["#5D4037", "#8D6E63"], // dark brown to medium brown
-    url: "https://play.google.com/store/apps/details?id=com.app.gvine",
-    tech: ["typescript", "react", "react-query"],
-  },
-  {
-    name: "React Native Directory",
-    imageKey: "react-native-directory",
-    description: "Search & filter React Native libraries via Raycast ⌨️",
-    gradient: ["#000000", "#1A1A1A"], // pure black to dark gray
-    url: "https://www.raycast.com/shubh_porwal/react-native-directory",
-    tech: ["typescript", "react", "expo", "raycast"],
-  },
-  {
-    name: "Buywow",
-    imageKey: "buywow",
-    description: "Official Wow Skin Science app 🌿",
-    gradient: ["#FFD54F", "#FFB300"], // bright golden yellow to deep orange
-    url: "https://play.google.com/store/apps/details?id=co.tapcart.app.id_99G6QNo3nu",
-    tech: ["typescript", "react", "react-query"],
-  },
-  {
-    name: "Bot9",
-    imageKey: "bot9",
-    description: "Automate support with AI 🤖",
-    gradient: ["#3F51B5", "#7986CB"], // indigo to medium blue
-    url: "https://bot9.ai/",
+    name: "CampusChoice",
+    imageKey: "campuschoice",
+    description: "Helping students make the right campus decisions 🎓",
+    gradient: ["#6366F1", "#8B5CF6"],
+    url: "https://github.com/paradox-prakhar/CampusChoice",
     tech: ["typescript", "react", "nextjs", "tailwindcss"],
   },
   {
-    name: "Dukaan",
-    imageKey: "dukaan",
-    description: "Shopify for India 🛍️",
-    gradient: ["#1976D2", "#1565C0"], // material blue to deep blue
-    url: "https://play.google.com/store/apps/details?id=com.dukaan.app",
-    tech: ["typescript", "react", "firebase", "tailwindcss", "react-query"],
+    name: "CarbonView",
+    imageKey: "carbonview",
+    description: "Track and visualize carbon emissions 🌿",
+    gradient: ["#10B981", "#059669"],
+    url: "https://github.com/paradox-prakhar/carbonview",
+    tech: ["typescript", "react", "nextjs", "tailwindcss"],
   },
   {
-    name: "Tesla",
-    imageKey: "tesla",
-    description: "Built with Expo 🏎️",
-    gradient: ["#0F172A", "#1E293B"], // midnight blue to dark slate (electric/tech feel)
-    url: "https://github.com/shubh73/tesla",
-    tech: ["javascript", "expo"],
+    name: "SRM System",
+    imageKey: "srm-system",
+    description: "Student resource management made easy 📚",
+    gradient: ["#3B82F6", "#1D4ED8"],
+    url: "https://github.com/paradox-prakhar/srm-system",
+    tech: ["javascript", "react", "nodejs"],
   },
   {
-    name: "Airbnb",
-    imageKey: "airbnb",
-    description: "Built with NextJS + Tailwind CSS 🛏️",
-    gradient: ["#1F2937", "#6B7280"], // dark gray to medium gray
-    url: "https://shubh73-airbnb.vercel.app/",
-    tech: ["javascript", "react", "nextjs", "mapbox", "tailwindcss"],
-  },
-  {
-    name: "Medium",
-    imageKey: "medium",
-    description: "Built with NextJS + Tailwind CSS ✍🏻",
-    gradient: ["#FF9800", "#F57C00"], // warm orange to deep orange
-    url: "https://shubh73-medium.vercel.app/",
-    tech: ["typescript", "react", "nextjs", "tailwindcss", "sanity"],
-  },
-  {
-    name: "Inshorts",
-    imageKey: "inshorts",
-    description: "Voice-enabled news using Alan AI 🎙",
-    gradient: ["#6366F1", "#4F46E5"], // indigo to deep indigo
-    url: "https://shubh73-inshorts.netlify.app/",
-    tech: ["javascript", "react", "chakra-ui", "alan"],
+    name: "Tic-Tac-Toe",
+    imageKey: "tic-tac-toe",
+    description: "Classic game with a modern twist 🎮",
+    gradient: ["#F59E0B", "#D97706"],
+    url: "https://github.com/paradox-prakhar/Tic-tac-toe",
+    tech: ["javascript", "react"],
   },
 ];
 
 export const WORK_CONTENTS = {
-  GRAPEVINE: [
+  PROJECTS: [
     {
-      title: "Grapevine",
+      title: "Open Source & Personal Projects",
       description:
-        "Grapevine is your anonymous office chat, letting coworkers speak openly, share gossip and connect without filters. Building on that same belief, Round1 AI brings it to hiring using AI-driven interviews to replace guesswork with genuine and meaningful conversations.",
+        "I'm a passionate developer who loves building full-stack web applications. From student platforms to environmental tools, I focus on creating impactful solutions with modern technologies like TypeScript, React, and Next.js.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Connect anonymously. Share freely.
+          Building cool stuff on the internet 🚀
         </div>
       ),
     },
     {
-      title: "Pioneering",
+      title: "CampusChoice",
       description:
-        "Hiring was broken — manual, biased, and slow. We launched Round1 AI to fix that: authentic voice interviews, built-in bias checks and real-time insights. Today, it powers thousands of interviews each week, letting teams hire smarter, faster and fairer.",
+        "CampusChoice helps students make informed decisions about their campus and academic choices. Built with TypeScript and Next.js, it features a modern UI and data-driven insights.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Senior Frontend Engineer
+          Full-Stack Developer
         </div>
       ),
     },
     {
-      title: "Elevate",
+      title: "CarbonView",
       description:
-        "The early web app struggled with slow performance and zero retention. I rebuilt it from the ground up with a sleek UI, faster load times and SEO-optimized. Then seeded a rich content layer to spark discovery. The payoff? 6x more impressions and 10x the organic installs all without ads, just momentum.",
+        "CarbonView is a carbon emission tracking and visualization platform. It enables users to monitor, analyze, and reduce their carbon footprint through intuitive dashboards and real-time data.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer
-        </div>
-      ),
-    },
-  ],
-  DUKAAN: [
-    {
-      title: "Dukaan",
-      description:
-        "Dukaan is a platform that enables businesses to launch their online stores at ease.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Revolutionizing commerce, one click at a time
-        </div>
-      ),
-    },
-    {
-      title: "Transformation",
-      description:
-        "Since 2023, the Dukaan Seller Dashboard struggled with technical issues and a broken user experience due to accumulated technical debt. Leading a team of two junior developers, we migrated the dashboard from CSR to SSR, redesigned the UI, and overhauled the codebase in the process. This resolved the technical debt and vastly improved the user experience, making it Dukaan's largest and most impactful migration.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Senior Frontend Engineer
-        </div>
-      ),
-    },
-    {
-      title: "Evolution",
-      description:
-        "Recognizing the need for improved performance and user engagement, I spearheaded the migration of the Dukaan App from native to React-Native for iOS and Android platforms. This strategic move led to a X% enhancement in app performance and a Y% boost in user engagement, representing a significant milestone in the app's evolution.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer
-        </div>
-      ),
-    },
-    {
-      title: "Optimization",
-      description:
-        "Leveraging user feedback and analytics, I improved the seller web dashboard design, reducing bounce rates. Simultaneously, I overhauled the build process, slashing bundle size and boosting overall performance.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer Intern
+          Full-Stack Developer
         </div>
       ),
     },
   ],
-  // AVIATE: [
-  //   {
-  //     title: "Aviate",
-  //     description:
-  //       "Aviate is a preparation and mentorship platform for job-seekers that are seeking non-technical roles across top companies",
-  //     content: (
-  //       <div className="h-full w-full flex items-center justify-center text-white px-4">
-  //         Finding the right job isn&apos;t fate, it&apos;s navigation
-  //       </div>
-  //     ),
-  //   },
-  //   {
-  //     title: "Innovation",
-  //     description:
-  //       "I spearheaded the development of Q-Rate, their flagship product, a voice-based applicant screening platform. Moreover, I took initiatives to enhance user engagement and drive substantial increases in daily traffic. Additionally, I implemented an error-logging and bug reporting system, significantly diminishing user-reported bugs.",
-  //     content: (
-  //       <div className="h-full w-full flex items-center justify-center text-white px-4">
-  //         Frontend Developer Intern
-  //       </div>
-  //     ),
-  //   },
-  // ],
-  // SPACENOS: [
-  //   {
-  //     title: "Spacenos",
-  //     description:
-  //       "A dynamic startup dedicated to creating innovative products that make the world a better place.",
-  //     content: (
-  //       <div className="h-full w-full flex items-center justify-center text-white px-4">
-  //         We build apps that solve problems for the next billion people
-  //       </div>
-  //     ),
-  //   },
-  //   {
-  //     title: "Trailblazing",
-  //     description:
-  //       "I led the comprehensive overhaul of the Admin Portal, implementing CRUD features for all services and providers. Additionally, I architected a feature enabling precise customer location tracking and delivering insightful usage statistics. Through optimized and compressed file serving, I catalyzed a remarkable Yx increase in page speed, resulting in a X% boost in customer retention.",
-  //     content: (
-  //       <div className="h-full w-full flex items-center justify-center text-white px-4">
-  //         Web Developer Intern
-  //       </div>
-  //     ),
-  //   },
-  // ],
 };
 
-export const GTAG = "G-5HCTL2TJ5W";
+export const GTAG = "";
