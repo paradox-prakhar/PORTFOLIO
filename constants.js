@@ -63,7 +63,7 @@ export const SOCIAL_LINKS = [
   },
   {
     name: "instagram",
-    url: "https://www.instagram.com/paradox.prakhar/",
+    url: "https://www.instagram.com/_paradox_prakhar/",
   },
   {
     name: "twitter",
