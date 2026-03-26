@@ -55,7 +55,7 @@ export const SOCIAL_LINKS = [
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/paradox-prakhar/",
+    url: "https://www.linkedin.com/in/prakhar-raj-344a89354/",
   },
   {
     name: "github",
