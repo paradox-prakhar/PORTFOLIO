@@ -1,7 +1,7 @@
-# devfolio
+# Portfolio | Prakhar
 
-<a href="https://shubhporwal.me">
-  <img alt="devfolio" src="./public/preview.png" />
+<a href="https://github.com/paradox-prakhar">
+  <img alt="Prakhar's Portfolio" src="./public/preview.png" />
 </a>
 
 <p>
@@ -9,12 +9,30 @@
   <a href="#" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
-  <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
 </p>
 
-👨‍🎓 An eye-catching developer Portfolio, Built on NextJS, GSAP, Tailwind and React
+👨‍🎓 A passionate Full-Stack Developer, dedicated to building modern web applications and solving real-world problems with code.
 
-### ✨ [Live Demo](http://www.shubhporwal.me/)
+### ✨ [GitHub Profile](https://github.com/paradox-prakhar)
+
+## 💻 Tech Stack
+- **Languages & Tools:** HTML, CSS, JavaScript, TypeScript, Sass, Node.js, Webpack, Vite, Firebase, Figma, Tanstack
+- **Libraries & Frameworks:** React, Next.js, TailwindCSS, Styled Components
+- **Databases:** MySQL, MongoDB
+- **Other:** Git, Cursor, Sanity
+
+## 🚀 Projects
+- **[CampusChoice](https://github.com/paradox-prakhar/CampusChoice):** Helping students make the right campus decisions 🎓
+- **[CarbonView](https://github.com/paradox-prakhar/carbonview):** Track and visualize carbon emissions 🌿
+- **[SRM System](https://github.com/paradox-prakhar/srm-system):** Student resource management made easy 📚
+- **[Tic-Tac-Toe](https://github.com/paradox-prakhar/Tic-tac-toe):** Classic game with a modern twist 🎮
+
+## 📬 Connect with me
+- [LinkedIn](https://www.linkedin.com/in/prakhar-raj007/)
+- [GitHub](https://github.com/paradox-prakhar)
+- [Twitter / X](https://x.com/CHOTURAj007)
+- [Instagram](https://www.instagram.com/_paradox_prakhar/)
+- [Email](mailto:007prakharraj@gmail.com)
 
 ## Getting Started
 
@@ -26,17 +44,3 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [`http://localhost:3000`](http://localhost:3000) to view it in the browser.
-
-## Design
-
-You can always draw inspiration from the design, and no, you don't have to give me credits for that.
-
-## Forking
-
-When people ask me whether they may use the code for their own website, I typically say yes as long as they provide proper attribution.
-
-Every time I learn that someone has duplicated my website without giving me credit, it saddens me. This version of my website took a significant amount of work to construct, and I'm pleased of it! All I ask is that you empathize with my situation and leave the footer unaltered.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=shubh73/devfolio&type=Date)](https://www.star-history.com/#shubh73/devfolio&Date)
